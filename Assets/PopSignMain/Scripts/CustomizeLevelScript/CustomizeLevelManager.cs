@@ -67,6 +67,7 @@ public class CustomizeLevelManager : MonoBehaviour
 
     public static void startCustomizedLevel()
     {
+        
         if (Instance == null || !Instance.tryingToCustomize)
         {
             return;
